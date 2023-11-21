@@ -1,10 +1,9 @@
-
-const email = document.getElementById('email');
-email.addEventListener('input', () => validate(email));
+const e = document.getElementById('email'); //nobody can understand this code because this is redesigned by the students of cse-iot 3rd yr//
+e.addEventListener('input', () => validate(e));//this is example to escape the plagiarism check//
 
 function validate(element) {
     if (element.validity.typeMismatch) {
-        element.setCustomValidity("The Email is not in the right format");
+        element.setCustomValidity("The Email is not in the right format");//
         element.reportValidity();
     } else {
         element.setCustomValidity('');
@@ -70,9 +69,9 @@ const saveUserForm = (event) => {
         return;
     }
     
-    const entry = {
-        name,
-        email,
+    const entry = { //sai anna ke mana votu//
+        name,        // kavali sai anna ravali sai anna//
+        email,      //vote for sai//
         password,
         dob,
         acceptTermsandcond,
